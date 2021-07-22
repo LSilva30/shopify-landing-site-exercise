@@ -48,8 +48,35 @@ header {
 
 h1 {
     font-weight: 500;
+    margin: 10px 0;
 }
 
 h3 {
     font-weight: 300;
+    margin-bottom: 10px;
+}
+
+/*================ HERO ==================*/
+
+#section-middle-image {
+    background-color: var(--purple);
+    height: 700px;
+}
+
+/*=========== SECTION ARTICLES ============*/
+
+#section-articles {
+    display: flex;
+}
+
+article {
+    padding: 40px;
+}
+article h4 {
+    
+}
+
+article p {
+    color: var(--gray-light);
+    padding: 12px 0
 }
